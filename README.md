@@ -2,7 +2,7 @@
 MapReduce Programming on MovieLens Data  
 
 Q1 Find the mean, median, and standard deviation of the ratings for each of the movie genres  
-To Run:
+To Run:  
 yarn jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
 -input /repository/movielens/ratings.csv \
 -output intro-to-hadoop/Q1output \
@@ -14,7 +14,7 @@ yarn jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
 
 
 Q2 identify the user who provides the most rating. Which genre does this user watch the most  
-To Run:
+To Run:  
 yarn jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
 -input /repository/movielens/ratings.csv \
 -output intro-to-hadoop/output-movielens-05 \
